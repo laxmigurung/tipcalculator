@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+.container{
+    margin-top:5%;
+    margin-bottom: 10%;
+    width: 480px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.home{
+    background-color: black;
+     padding:1%;
+ }   
+ 
+ .home ul li{
+     list-style-type: none;
+     display: inline-block;
+     color:white;
+     padding-left:5%;
+     padding-right:5%;
+     font-size: 20px;;
+ }
+ .home ul li:hover{
+     background-color:grey;
+     color:white;
+ }
+ .home button{
+     background-color: transparent;
+     color:white;
+     border: 1px solid white;
+     padding: 1%;
+ }
+ button:hover{
+     background-color: brown;
+ }
+ .information{
+    background-color: black;
+    padding:10%
+    color:white;
+}
+.information ul{
+    padding:5%;
+    color:white;
+    list-style-type:none;
+}
+pre{
+    font-size: x-large;
+    text-align: center;
+    padding: 15px;
+}
+button{
+    background-color: rgb(228, 189, 171);
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    
+}
+.input-group-addon{
+    background-color: rgb(228, 189, 171);
+
+}
